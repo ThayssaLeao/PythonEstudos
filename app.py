@@ -14,12 +14,12 @@ def menu():
 
 def finalizar_app():
     os.system('cls')
-    print('Encerrando')
+    print('Finalizando')
 
 def escolher_opcoes():           
     opcao_escolhida = int(input('escolha uma opção:'))
 
-    if opcao_escolhida == 1:
+    if opcao_escolhida == 2:
         print('1. Cadastrar restaurante')
     elif opcao_escolhida == 2:
         print('2. Listar restaurante')
@@ -34,4 +34,4 @@ def main():
     escolher_opcoes()
 
 if __name__ == '__main__':
-    main()
+    main() 
