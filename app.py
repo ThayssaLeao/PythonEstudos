@@ -19,7 +19,7 @@ def finalizar_app():
 def escolher_opcoes():           
     opcao_escolhida = int(input('escolha uma opção:'))
 
-    if opcao_escolhida == 2:
+    if opcao_escolhida == 1:
         print('1. Cadastrar restaurante')
     elif opcao_escolhida == 2:
         print('2. Listar restaurante')
