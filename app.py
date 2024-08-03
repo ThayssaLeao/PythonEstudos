@@ -25,6 +25,8 @@ def escolher_opcoes():
         print('2. Listar restaurante')
     elif opcao_escolhida == 3:
         print('3. Ativar restaurante')
+    elif opcao_escolhida == 4:
+        print('3. Localização')
     else:
         finalizar_app()
 
